@@ -14,6 +14,9 @@
 		CE3139C625EB587200B61810 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3139C525EB587200B61810 /* StartView.swift */; };
 		CE3139CB25EB58E600B61810 /* Neumorphic in Frameworks */ = {isa = PBXBuildFile; productRef = CE3139CA25EB58E600B61810 /* Neumorphic */; };
 		CE3139D025EB66A800B61810 /* Start2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3139CF25EB66A800B61810 /* Start2View.swift */; };
+		CE3139D525EB78E900B61810 /* anata4dream.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE3139D425EB78E900B61810 /* anata4dream.gif */; };
+		CE3139D925EB7B0300B61810 /* Start2View.png in Resources */ = {isa = PBXBuildFile; fileRef = CE3139D725EB7B0300B61810 /* Start2View.png */; };
+		CE3139DA25EB7B0300B61810 /* StartView.png in Resources */ = {isa = PBXBuildFile; fileRef = CE3139D825EB7B0300B61810 /* StartView.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,10 @@
 		CE3139BD25EB584600B61810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE3139C525EB587200B61810 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		CE3139CF25EB66A800B61810 /* Start2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start2View.swift; sourceTree = "<group>"; };
+		CE3139D225EB75EB00B61810 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE3139D425EB78E900B61810 /* anata4dream.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = anata4dream.gif; sourceTree = "<group>"; };
+		CE3139D725EB7B0300B61810 /* Start2View.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Start2View.png; sourceTree = "<group>"; };
+		CE3139D825EB7B0300B61810 /* StartView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartView.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +49,8 @@
 		CE3139A825EB584500B61810 = {
 			isa = PBXGroup;
 			children = (
+				CE3139D325EB77E100B61810 /* materials */,
+				CE3139D225EB75EB00B61810 /* README.md */,
 				CE3139B325EB584500B61810 /* ANATAforDREAM */,
 				CE3139B225EB584500B61810 /* Products */,
 			);
@@ -83,6 +92,16 @@
 				CE3139CF25EB66A800B61810 /* Start2View.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		CE3139D325EB77E100B61810 /* materials */ = {
+			isa = PBXGroup;
+			children = (
+				CE3139D425EB78E900B61810 /* anata4dream.gif */,
+				CE3139D725EB7B0300B61810 /* Start2View.png */,
+				CE3139D825EB7B0300B61810 /* StartView.png */,
+			);
+			path = materials;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +167,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3139D925EB7B0300B61810 /* Start2View.png in Resources */,
+				CE3139D525EB78E900B61810 /* anata4dream.gif in Resources */,
 				CE3139BC25EB584600B61810 /* Preview Assets.xcassets in Resources */,
+				CE3139DA25EB7B0300B61810 /* StartView.png in Resources */,
 				CE3139B925EB584600B61810 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
