@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isStart2Presented = false
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            StartView(isPresented: $isStart2Presented)
+            
+            if isStart2Presented {
+                Start2View()
+            }
+        }
     }
 }
 

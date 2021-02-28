@@ -10,6 +10,7 @@ import Neumorphic
 
 struct StartView: View {
     @State var screen = UIScreen.main.bounds.size
+    @Binding var isPresented: Bool
     
     var body: some View {
         ZStack {
@@ -62,7 +63,7 @@ struct StartView: View {
                 
                 // Start button
                 Button(action: {
-                    
+                    isPresented.toggle()
                 }, label: {
                     Text("はじめる")
                         .fontWeight(.bold)
@@ -79,9 +80,9 @@ struct StartView: View {
 struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            StartView()
+            StartView(isPresented: .constant(false))
                 .environment(\.colorScheme, .light)
-            StartView()
+            StartView(isPresented: .constant(false))
                 .environment(\.colorScheme, .dark)
         }
     }
