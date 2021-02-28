@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Neumorphic
 
 @main
 struct ANATAforDREAMApp: App {
@@ -13,5 +14,10 @@ struct ANATAforDREAMApp: App {
         WindowGroup {
             ContentView()
         }
+    }
+    
+    init() {
+        // set color scheme
+        Color.Neumorphic.colorSchemeType = .light
     }
 }
