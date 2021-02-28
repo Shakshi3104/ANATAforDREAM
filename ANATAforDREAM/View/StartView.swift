@@ -45,21 +45,33 @@ struct StartView: View {
                 VStack {
                     Text("このコンテンツは音がでます。")
                         .font(.callout)
+                        .fontWeight(.bold)
+                        .kerning(2)
                         .foregroundColor(.black)
+                        .padding(.vertical, 1)
                     Text("サウンドをオンにしてお楽しみください。")
                         .font(.callout)
+                        .fontWeight(.bold)
+                        .kerning(2)
                         .foregroundColor(.black)
+                        .padding(.vertical, 1)
                 }
-                .padding(.vertical)
+                .padding(.vertical, 5)
                 
                 VStack {
                     Text("コンテンツ内ではブラウザの")
                         .font(.callout)
+                        .fontWeight(.bold)
+                        .kerning(2)
                         .foregroundColor(.black)
+                        .padding(.vertical, 1)
                     Text("「更新」「戻る」機能を使用しないでください。")
                         .font(.callout)
+                        .fontWeight(.bold)
+                        .kerning(2)
                         .foregroundColor(.black)
-                }.padding(.vertical)
+                        .padding(.vertical, 1)
+                }.padding(.vertical, 5)
                 
                 // Start button
                 Button(action: {

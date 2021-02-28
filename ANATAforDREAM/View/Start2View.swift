@@ -42,6 +42,8 @@ struct Start2View: View {
                 HStack(alignment: .bottom) {
                     Text("参加・応募規約に同意する")
                         .font(.callout)
+                        .fontWeight(.bold)
+                        .kerning(2)
                         .foregroundColor(.black)
                     
                     ZStack {
