@@ -1,6 +1,6 @@
 #  A・NA・TA for DREAM
 
-This is a recreation of A・NA・TA for DREAM with SwiftUI and [Neumorphic](https://github.com/costachung/neumorphic).
+This is a imitation of A・NA・TA for DREAM with SwiftUI and [Neumorphic](https://github.com/costachung/neumorphic).
 
 <p align="center">
   <img src="materials/anata4dream.gif" height=400 />
