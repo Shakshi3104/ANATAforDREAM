@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,9 @@
 		CE3139B725EB584500B61810 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3139B625EB584500B61810 /* ContentView.swift */; };
 		CE3139B925EB584600B61810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3139B825EB584600B61810 /* Assets.xcassets */; };
 		CE3139BC25EB584600B61810 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3139BB25EB584600B61810 /* Preview Assets.xcassets */; };
+		CE3139C625EB587200B61810 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3139C525EB587200B61810 /* StartView.swift */; };
+		CE3139CB25EB58E600B61810 /* Neumorphic in Frameworks */ = {isa = PBXBuildFile; productRef = CE3139CA25EB58E600B61810 /* Neumorphic */; };
+		CE3139D025EB66A800B61810 /* Start2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3139CF25EB66A800B61810 /* Start2View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,8 @@
 		CE3139B825EB584600B61810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3139BB25EB584600B61810 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE3139BD25EB584600B61810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3139C525EB587200B61810 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		CE3139CF25EB66A800B61810 /* Start2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start2View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3139CB25EB58E600B61810 /* Neumorphic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +58,7 @@
 		CE3139B325EB584500B61810 /* ANATAforDREAM */ = {
 			isa = PBXGroup;
 			children = (
+				CE3139C425EB585800B61810 /* View */,
 				CE3139B425EB584500B61810 /* ANATAforDREAMApp.swift */,
 				CE3139B625EB584500B61810 /* ContentView.swift */,
 				CE3139B825EB584600B61810 /* Assets.xcassets */,
@@ -67,6 +74,15 @@
 				CE3139BB25EB584600B61810 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE3139C425EB585800B61810 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE3139C525EB587200B61810 /* StartView.swift */,
+				CE3139CF25EB66A800B61810 /* Start2View.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +101,9 @@
 			dependencies = (
 			);
 			name = ANATAforDREAM;
+			packageProductDependencies = (
+				CE3139CA25EB58E600B61810 /* Neumorphic */,
+			);
 			productName = ANATAforDREAM;
 			productReference = CE3139B125EB584500B61810 /* ANATAforDREAM.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +131,9 @@
 				Base,
 			);
 			mainGroup = CE3139A825EB584500B61810;
+			packageReferences = (
+				CE3139C925EB58E600B61810 /* XCRemoteSwiftPackageReference "neumorphic" */,
+			);
 			productRefGroup = CE3139B225EB584500B61810 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,6 +162,8 @@
 			files = (
 				CE3139B725EB584500B61810 /* ContentView.swift in Sources */,
 				CE3139B525EB584500B61810 /* ANATAforDREAMApp.swift in Sources */,
+				CE3139D025EB66A800B61810 /* Start2View.swift in Sources */,
+				CE3139C625EB587200B61810 /* StartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shakshi.ANATAforDREAM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +326,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shakshi.ANATAforDREAM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -328,6 +352,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE3139C925EB58E600B61810 /* XCRemoteSwiftPackageReference "neumorphic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/costachung/neumorphic/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE3139CA25EB58E600B61810 /* Neumorphic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE3139C925EB58E600B61810 /* XCRemoteSwiftPackageReference "neumorphic" */;
+			productName = Neumorphic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE3139A925EB584500B61810 /* Project object */;
 }
