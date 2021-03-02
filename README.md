@@ -14,5 +14,7 @@ This is a imitation of A・NA・TA for DREAM with SwiftUI and [Neumorphic](https
 - [Neumorphic](https://github.com/costachung/neumorphic)
 
 # ToDo
-- [ ] implement view of original A・RA・SHI listening
+- [x] implement view of original A・RA・SHI listening
 - [ ] implement view of ARASHI's dream listening
+- [ ] implement view of someone's dream listening
+- [ ] implement playing some movie for A・NA・TA for DREAM
