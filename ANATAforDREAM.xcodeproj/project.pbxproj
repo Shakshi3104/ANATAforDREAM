@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2CA90F25EE0F0D006CE1B2 /* OriginalARASHIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CA90E25EE0F0D006CE1B2 /* OriginalARASHIView.swift */; };
 		CE3139B525EB584500B61810 /* ANATAforDREAMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3139B425EB584500B61810 /* ANATAforDREAMApp.swift */; };
 		CE3139B725EB584500B61810 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3139B625EB584500B61810 /* ContentView.swift */; };
 		CE3139B925EB584600B61810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3139B825EB584600B61810 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE2CA90E25EE0F0D006CE1B2 /* OriginalARASHIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalARASHIView.swift; sourceTree = "<group>"; };
 		CE3139B125EB584500B61810 /* ANATAforDREAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANATAforDREAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3139B425EB584500B61810 /* ANATAforDREAMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANATAforDREAMApp.swift; sourceTree = "<group>"; };
 		CE3139B625EB584500B61810 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			children = (
 				CE3139C525EB587200B61810 /* StartView.swift */,
 				CE3139CF25EB66A800B61810 /* Start2View.swift */,
+				CE2CA90E25EE0F0D006CE1B2 /* OriginalARASHIView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE3139B725EB584500B61810 /* ContentView.swift in Sources */,
+				CE2CA90F25EE0F0D006CE1B2 /* OriginalARASHIView.swift in Sources */,
 				CE3139B525EB584500B61810 /* ANATAforDREAMApp.swift in Sources */,
 				CE3139D025EB66A800B61810 /* Start2View.swift in Sources */,
 				CE3139C625EB587200B61810 /* StartView.swift in Sources */,
