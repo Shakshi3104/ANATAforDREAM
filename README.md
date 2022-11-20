@@ -3,7 +3,7 @@
 This is a imitation of A・NA・TA for DREAM with SwiftUI and [Neumorphic](https://github.com/costachung/neumorphic).
 
 <p align="center">
-  <img src="materials/anata4dream.gif" height=400 />
+  <img src="materials/anata4dream.gif" width=256 />
 </p>
 
 # Requirements
